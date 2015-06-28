@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+               BuildableName = "DemoRicercaFiliali WatchKit App.app"
+               BlueprintName = "DemoRicercaFiliali WatchKit App"
+               ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3A15F7C01B4059AC006DEBB0"
+               BuildableName = "DemoRicercaFiliali WatchKit Extension.appex"
+               BlueprintName = "DemoRicercaFiliali WatchKit Extension"
+               ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3A15F7931B405997006DEBB0"
+               BuildableName = "DemoRicercaFiliali.app"
+               BlueprintName = "DemoRicercaFiliali"
+               ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+            BuildableName = "DemoRicercaFiliali WatchKit App.app"
+            BlueprintName = "DemoRicercaFiliali WatchKit App"
+            ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "DemoRicercaFiliali WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/DemoRicercaFiliali">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+            BuildableName = "DemoRicercaFiliali WatchKit App.app"
+            BlueprintName = "DemoRicercaFiliali WatchKit App"
+            ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+            BuildableName = "DemoRicercaFiliali WatchKit App.app"
+            BlueprintName = "DemoRicercaFiliali WatchKit App"
+            ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "DemoRicercaFiliali WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/DemoRicercaFiliali">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+            BuildableName = "DemoRicercaFiliali WatchKit App.app"
+            BlueprintName = "DemoRicercaFiliali WatchKit App"
+            ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3A15F7D21B4059AD006DEBB0"
+            BuildableName = "DemoRicercaFiliali WatchKit App.app"
+            BlueprintName = "DemoRicercaFiliali WatchKit App"
+            ReferencedContainer = "container:DemoRicercaFiliali.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

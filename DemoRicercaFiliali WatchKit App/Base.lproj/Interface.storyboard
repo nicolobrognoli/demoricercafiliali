@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Map Master - Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="mapMaster" id="AgC-eL-Hgc" userLabel="Map Master - Interface Controller" customClass="InterfaceController">
+                    <items>
+                        <map width="1" height="150" alignment="left" id="f8K-35-fcS">
+                            <variation key="device=watch42mm" height="170"/>
+                        </map>
+                    </items>
+                    <menu key="menu" id="HVS-bd-6Zi">
+                        <items>
+                            <menuItem title="Informazioni" icon="info" id="NkJ-NH-JUx">
+                                <connections>
+                                    <action selector="informazioniAction" destination="AgC-eL-Hgc" id="Z4i-fz-5Yp"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Altre opzioni" icon="more" id="K6x-vF-Dcg">
+                                <connections>
+                                    <action selector="altreOpzioniAction" destination="AgC-eL-Hgc" id="bfF-Vd-mSl"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="map" destination="f8K-35-fcS" id="Puz-ck-p11"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Informazioni - Interface Controller-->
+        <scene sceneID="uJ9-Yc-Iwn">
+            <objects>
+                <controller identifier="informazioni" title="Informazioni" id="Le3-xG-e7S" userLabel="Informazioni - Interface Controller"/>
+            </objects>
+            <point key="canvasLocation" x="416" y="347"/>
+        </scene>
+        <!--Altre Opzioni - Interface Controller-->
+        <scene sceneID="Ye9-Pn-vzk">
+            <objects>
+                <controller identifier="altreOpzioni" id="lg7-R9-3Mu" userLabel="Altre Opzioni - Interface Controller">
+                    <items>
+                        <table alignment="left" id="kOA-M1-Z0f">
+                            <items>
+                                <tableRow id="9Jg-AE-Y6l">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="2Ob-0s-8go">
+                                        <items>
+                                            <label alignment="left" text="Filiale 1" id="RhI-rJ-FKy"/>
+                                            <label alignment="left" text="via Monte Rosa 2" numberOfLines="0" id="Oc9-4J-gzE"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                                <tableRow id="PnL-WZ-23a">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="1x4-8E-QZf">
+                                        <items>
+                                            <label alignment="left" text="Filiale 2" id="IFG-CI-Mu3"/>
+                                            <label alignment="left" text="via Cascia 6" numberOfLines="0" id="kH3-1a-vha"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="590" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>
